@@ -1,0 +1,118 @@
+// ✅  LLM-populated CONFIG — cross-reference against live CONFIG.js
+
+const CONFIG = {
+  businessName: "3 555's Maintenance",
+  niche: "Stone, Pavers, and Concrete Landscape Installations",
+  tagline: "Your Trusted Partner for Premier Outdoor Transformations in DFW",
+  phone: "832-759-0590",
+  phoneRaw: "8327590590",
+  email: "Fredrick@3555smaintenance.com",
+  city: "DFW",
+  state: "Texas",
+  stateShort: "TX",
+  address: "",
+  licenseNumber: "",
+  colors: { primary: "#1A535C", secondary: "#1C2333" },
+  social: { facebook: "", instagram: "", youtube: "", yelp: "", nextdoor: "" },
+  googleReviewsUrl: "",
+  rating: "",
+  reviewCount: 0,
+  yearsExperience: 0,
+  projectsCompleted: "0+",
+  satisfactionRate: "98%",
+  webhookUrl: "",
+  metaPixelId: "",
+  maps: { mapEmbedUrl: "", mapSearchQuery: "", mapHeight: 420 },
+  hero: {
+    eyebrow: "Local Home Service Professionals",
+    headline: "Transform Your DFW Outdoor Space with Expert Stone, Paver, and Concrete Installations",
+    subheadline: "At 3 555's Maintenance, we deliver top-quality craftsmanship and client-centered service to create vibrant, functional, and beautiful outdoor sanctuaries.",
+    ctaPrimary: "Get a Free Estimate",
+    ctaSecondary: "Explore Services",
+    heroImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80&auto=format&fit=crop",
+  },
+  services: [
+    {
+      slug: "paver-stone-installations",
+      name: "Paver Stone Installations",
+      desc: "Bring elegance and structure to your property with custom paver designs for patios, walkways, and driveways.",
+      longDesc: "Elevate your outdoor living space with our expert paver stone installations. Whether you envision a stunning patio, a welcoming walkway, or a durable driveway, our team ensures precision and lasting beauty. We offer a diverse selection of patterns, colors, and finishes to perfectly match your aesthetic and enhance your property's curb appeal. Our pavers are designed for strength and longevity, providing a beautiful foundation for your outdoor activities.",
+      benefits: ["Enhanced curb appeal and property value", "Durable and long-lasting surfaces", "Wide range of design options (colors, patterns, finishes)", "Low maintenance requirements", "Expert installation for lasting beauty"],
+      faqs: [
+        { q: "What types of paver stones do you install?", a: "We install a variety of paver stones including concrete pavers, natural stone pavers (like flagstone), and permeable pavers, suitable for driveways, patios, and walkways." },
+        { q: "How long does a paver installation typically take?", a: "The duration depends on the project's size and complexity, but most residential paver installations can be completed within a few days to a week once materials are on-site." },
+        { q: "Are paver stones durable in the DFW climate?", a: "Yes, our paver installations are designed to withstand the varying DFW weather conditions, including hot summers and occasional freezes, ensuring longevity and minimal maintenance." }
+      ],
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+    },
+    {
+      slug: "stone-masonry",
+      name: "Stone Masonry",
+      desc: "Add timeless character and functional artistry to your landscape with custom stone work.",
+      longDesc: "Our stone masonry services bring timeless beauty and robust functionality to your outdoor spaces. From elegant retaining walls that manage slopes to decorative stone features that become focal points, we craft each piece with artistry and precision. We meticulously select and install natural or manufactured stone that not only complements your property's aesthetic but also provides superior durability and structural integrity. Experience the enduring appeal of expertly crafted stone work.",
+      benefits: ["Adds natural beauty and timeless appeal", "Enhances structural integrity for retaining walls", "Custom designs for unique outdoor features", "Durable and weather-resistant materials", "Increases property value and curb appeal"],
+      faqs: [
+        { q: "What types of stone do you use for masonry projects?", a: "We work with a wide range of natural stones like limestone, sandstone, and granite, as well as high-quality manufactured stone products, depending on your project's aesthetic and functional needs." },
+        { q: "Can stone masonry be used for both structural and decorative purposes?", a: "Absolutely. Stone masonry is versatile enough for building strong retaining walls, outdoor kitchens, and fireplaces, as well as creating beautiful decorative accents like veneers and garden borders." },
+        { q: "How do you ensure the longevity of stone masonry in DFW?", a: "We use proper foundation techniques, high-quality mortar, and sealants where appropriate, all designed to ensure your stone work withstands DFW's climate and remains beautiful for years." }
+      ],
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+    },
+    {
+      slug: "concrete-installations",
+      name: "Concrete Installations",
+      desc: "Reliable and durable concrete solutions for driveways, sidewalks, patios, and custom slabs.",
+      longDesc: "As the versatile foundation for many outdoor designs, our concrete installations are engineered for strength, performance, and aesthetic appeal. We specialize in a comprehensive range of concrete services, including robust driveways, smooth sidewalks, custom patios, and specialized slabs. Our team ensures meticulous preparation and precise pouring, resulting in long-term durability and a polished finish that significantly enhances your property's curb appeal. Choose us for concrete work that stands the test of time.",
+      benefits: ["Exceptional durability and longevity", "Low maintenance requirements", "Versatile design options (stamping, staining, custom shapes)", "Cost-effective solution for large areas", "Strong foundation for various outdoor structures"],
+      faqs: [
+        { q: "What is the typical lifespan of a concrete driveway?", a: "With proper installation and maintenance, a concrete driveway can last 30 years or more, making it a very durable and long-term investment for your DFW home." },
+        { q: "Can you do decorative concrete finishes?", a: "Yes, we offer various decorative concrete options including stamped concrete (to mimic stone or brick), stained concrete, and exposed aggregate finishes to enhance aesthetic appeal." },
+        { q: "How long does new concrete need to cure before use?", a: "While concrete is typically walkable within 24-48 hours, it's best to allow 7 days for light use and up to 28 days for full curing, especially for driveways, to ensure maximum strength." }
+      ],
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+    },
+    {
+      slug: "custom-landscape-design",
+      name: "Custom Landscape Design",
+      desc: "Create your ideal outdoor sanctuary with a personalized landscape design that reflects your lifestyle.",
+      longDesc: "Transform your outdoor living area into a functional, inviting, and beautiful sanctuary with our custom landscape design services. We collaborate closely with you to develop a personalized layout that perfectly aligns with your lifestyle, complements your property's architecture, and maximizes your outdoor enjoyment. From thoughtful plant selections and garden layouts to integrated hardscapes like patios and walkways, our designs expertly balance aesthetic beauty, structural integrity, and environmental sustainability. Let us help you realize the full potential of your yard.",
+      benefits: ["Personalized outdoor spaces tailored to your vision", "Increased property value and curb appeal", "Harmonious blend of softscapes and hardscapes", "Maximizes outdoor enjoyment and functionality", "Sustainable and aesthetically pleasing designs"],
+      faqs: [
+        { q: "What is the process for your custom landscape design service?", a: "Our process begins with an initial consultation to understand your vision, followed by site analysis, conceptual design, detailed plans, and finally, the implementation phase, ensuring your dream landscape comes to life." },
+        { q: "Do you also handle the installation of the landscape design?", a: "Yes, we provide comprehensive services from design to full installation, ensuring a seamless transition from concept to completion with our skilled team." },
+        { q: "How long does a landscape design project typically take?", a: "The timeline varies based on the scope and complexity of the design, but generally, the design phase can take a few weeks, with installation following depending on the project's scale." }
+      ],
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+    },
+  ],
+  serviceAreas: [
+    { slug: "dallas", name: "Dallas", county: "" },
+    { slug: "prosper", name: "Prosper", county: "" },
+    { slug: "mckinney", name: "McKinney", county: "" },
+    { slug: "plano", name: "Plano", county: "" }
+  ],
+  testimonials: [
+    { name: "Sarah", city: "Dallas", review: "3 555's Maintenance transformed our backyard in Dallas with a beautiful paver patio. The team was professional, efficient, and the quality of work is outstanding. We spend so much more time outdoors now!" },
+    { name: "Mike", city: "Prosper", review: "Freddie and his crew did an amazing job on our new concrete driveway in Prosper. It looks fantastic and held up perfectly through the last storm. Highly recommend their concrete services!" },
+    { name: "Emily", city: "McKinney", review: "We hired 3 555's Maintenance for some stone masonry work around our garden in McKinney, and couldn't be happier. The craftsmanship is superb, and it really elevated the look of our home. True artists!" },
+    { name: "David", city: "Plano", review: "Our landscape design project in Plano with 3 555's Maintenance was a breeze from start to finish. They truly listened to our ideas and created an outdoor space that's both beautiful and functional. Excellent service!" },
+  ],
+  processSteps: [
+    { title: "Tell Us About Your Project", desc: "Share your goals and schedule a convenient consultation." },
+    { title: "Receive a Clear Plan", desc: "We assess the work and provide a straightforward recommendation." },
+    { title: "Professional Service", desc: "Our team completes the job with care and clear communication." },
+    { title: "Final Walkthrough", desc: "We make sure the completed work meets your expectations." },
+  ],
+  faqs: [
+    { q: "What areas do you serve in the DFW Metroplex?", a: "We proudly serve Dallas, Prosper, McKinney, Plano, and surrounding communities within the DFW area. Contact us to confirm service availability in your specific location." },
+    { q: "How much does a new paver patio or concrete driveway cost?", a: "The cost varies greatly depending on the size, materials chosen, site preparation required, and complexity of the design. We offer free, no-obligation estimates tailored to your specific project needs." },
+    { q: "Do you offer free estimates for landscape and hardscape projects?", a: "Yes, we provide complimentary consultations and detailed estimates for all our stone, paver, concrete, and landscape design services. It's the best way to start planning your outdoor transformation." },
+    { q: "What's the difference between pavers and concrete for patios and driveways?", a: "Pavers are individual units laid over a prepared base, offering flexibility, easy repairs, and a wide range of aesthetic options. Concrete is a solid slab that is very durable and can be customized with stamping or staining, but repairs can be more complex." },
+    { q: "How long will my new stone or concrete installation last?", a: "With proper installation and maintenance, our stone and concrete installations are designed for longevity. Concrete can last 30+ years, and pavers often last 25-50 years, providing durable beauty for decades." },
+    { q: "Do you provide maintenance services after installation?", a: "While our installations are built to last, we can offer guidance on maintenance best practices. For specific maintenance needs, please inquire during your consultation." },
+    { q: "Are your services insured and licensed?", a: "Yes, 3 555's Maintenance is fully insured to protect both our team and your property throughout the duration of any project." },
+    { q: "How can I prepare my yard for a new landscape project?", a: "We'll guide you through any necessary preparations. Generally, clearing the area of debris and ensuring access for our team are helpful first steps. We handle the heavy lifting!" }
+  ],
+  portfolioProjects: [],
+  legal: { privacyPolicyDate: "May 1, 2025", termsDate: "May 1, 2025" },
+};
