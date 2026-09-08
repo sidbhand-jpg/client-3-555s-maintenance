@@ -27,7 +27,7 @@ const CONFIG = {
     subheadline: "At 3 555's Maintenance, we deliver top-quality craftsmanship and client-centered service to create vibrant, functional, and beautiful outdoor sanctuaries.",
     ctaPrimary: "Get a Free Estimate",
     ctaSecondary: "Explore Services",
-    heroImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1602860739945-9a61573cd62d?w=1600&q=82&auto=format&fit=crop",
   },
   services: [
     {
@@ -41,7 +41,7 @@ const CONFIG = {
         { q: "How long does a paver installation typically take?", a: "The duration depends on the project's size and complexity, but most residential paver installations can be completed within a few days to a week once materials are on-site." },
         { q: "Are paver stones durable in the DFW climate?", a: "Yes, our paver installations are designed to withstand the varying DFW weather conditions, including hot summers and occasional freezes, ensuring longevity and minimal maintenance." }
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1761637822930-fb1c1a3df94d?w=1000&q=80&auto=format&fit=crop",
     },
     {
       slug: "stone-masonry",
@@ -54,7 +54,7 @@ const CONFIG = {
         { q: "Can stone masonry be used for both structural and decorative purposes?", a: "Absolutely. Stone masonry is versatile enough for building strong retaining walls, outdoor kitchens, and fireplaces, as well as creating beautiful decorative accents like veneers and garden borders." },
         { q: "How do you ensure the longevity of stone masonry in DFW?", a: "We use proper foundation techniques, high-quality mortar, and sealants where appropriate, all designed to ensure your stone work withstands DFW's climate and remains beautiful for years." }
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1761637823941-0ffae96ec487?w=1000&q=80&auto=format&fit=crop",
     },
     {
       slug: "concrete-installations",
@@ -67,7 +67,7 @@ const CONFIG = {
         { q: "Can you do decorative concrete finishes?", a: "Yes, we offer various decorative concrete options including stamped concrete (to mimic stone or brick), stained concrete, and exposed aggregate finishes to enhance aesthetic appeal." },
         { q: "How long does new concrete need to cure before use?", a: "While concrete is typically walkable within 24-48 hours, it's best to allow 7 days for light use and up to 28 days for full curing, especially for driveways, to ensure maximum strength." }
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1685464196332-ed9c9da28d9a?w=1000&q=80&auto=format&fit=crop",
     },
     {
       slug: "custom-landscape-design",
@@ -80,7 +80,7 @@ const CONFIG = {
         { q: "Do you also handle the installation of the landscape design?", a: "Yes, we provide comprehensive services from design to full installation, ensuring a seamless transition from concept to completion with our skilled team." },
         { q: "How long does a landscape design project typically take?", a: "The timeline varies based on the scope and complexity of the design, but generally, the design phase can take a few weeks, with installation following depending on the project's scale." }
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1763878121493-cefae6d5e66d?w=1000&q=80&auto=format&fit=crop",
     },
   ],
   serviceAreas: [
