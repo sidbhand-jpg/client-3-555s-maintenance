@@ -85,17 +85,10 @@ function renderStars(count = 5) {
   ).join('');
 }
 
-// ── Logo SVG ─────────────────────────────────────────────────
+// ── Brand logo ───────────────────────────────────────────────
 function logoHTML() {
-  return `<a href="/" class="logo-link">
-    <span class="logo-icon">
-      <svg viewBox="0 0 24 24" fill="none" class="logo-svg">
-        <rect x="3" y="14" width="18" height="3" rx="1" fill="currentColor" opacity="0.5"/>
-        <rect x="3" y="10" width="18" height="3" rx="1" fill="currentColor" opacity="0.75"/>
-        <rect x="3" y="6" width="18" height="3" rx="1" fill="currentColor"/>
-      </svg>
-    </span>
-    <span class="logo-text">${CONFIG.businessName}</span>
+  return `<a href="/" class="logo-link" aria-label="${CONFIG.businessName} home">
+    <img src="/public/Logo-website.webp" alt="${CONFIG.businessName}" class="brand-logo" width="444" height="101" />
   </a>`;
 }
 
@@ -160,7 +153,7 @@ function renderHeader() {
       </div>
 
       <!-- Mobile hamburger -->
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
         <svg id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-md"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         <svg id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-md" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
@@ -230,6 +223,9 @@ function initHeader() {
     drawer.style.display = isOpen ? 'none' : 'block';
     iconMenu.style.display = isOpen ? 'block' : 'none';
     iconX.style.display = isOpen ? 'none' : 'block';
+    header.classList.toggle('menu-open', !isOpen);
+    hamburger.setAttribute('aria-expanded', String(!isOpen));
+    hamburger.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
   });
 
   // Desktop dropdowns - hover
@@ -260,6 +256,9 @@ function initHeader() {
       drawer.style.display = 'none';
       iconMenu.style.display = 'block';
       iconX.style.display = 'none';
+      header.classList.remove('menu-open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      hamburger.setAttribute('aria-label', 'Open menu');
     });
   });
 }
@@ -297,7 +296,9 @@ function renderFooter() {
 
       <!-- Brand column -->
       <div class="footer-brand">
-        <div class="footer-biz-name">${CONFIG.businessName}</div>
+        <a href="/" class="footer-logo-link" aria-label="${CONFIG.businessName} home">
+          <img src="/public/Logo-website.webp" alt="${CONFIG.businessName}" class="footer-brand-logo" width="444" height="101" loading="lazy" />
+        </a>
         <p class="footer-tagline">${CONFIG.tagline}</p>
         <div class="footer-contact-list">
           <a href="tel:${CONFIG.phoneRaw}" class="footer-contact-item">

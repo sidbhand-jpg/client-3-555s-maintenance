@@ -10,7 +10,7 @@ const CONFIG = {
   stateShort: "TX",
   address: "",
   licenseNumber: "",
-  colors: { primary: "#1A535C", secondary: "#1C2333" },
+  colors: { primary: "#F4D21F", secondary: "#090909" },
   social: { facebook: "", instagram: "", youtube: "", yelp: "", nextdoor: "" },
   googleReviewsUrl: "",
   rating: "",

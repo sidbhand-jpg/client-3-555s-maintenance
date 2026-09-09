@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let suppressClick = false;
 
     const getItemsPerSlide = () => {
-      if (window.innerWidth >= 1024) return 4;
+      if (window.innerWidth >= 1024) return 2;
       if (window.innerWidth >= 640) return 2;
       return 1;
     };
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
             height="${project.height}"
             class="portfolio-img"
             loading="${index < eagerCount ? 'eager' : 'lazy'}"
-            sizes="(min-width: 1024px) 23vw, (min-width: 640px) 46vw, 90vw"
+            sizes="(min-width: 1024px) 46vw, (min-width: 640px) 46vw, 92vw"
             draggable="false"
           />
           <span class="portfolio-overlay">
@@ -679,13 +679,13 @@ document.addEventListener('DOMContentLoaded', () => {
 @media (min-width: 768px) { .comparison-grid { grid-template-columns: 1fr 1fr; } }
 .comparison-card { border-radius: var(--radius-2xl); padding: 1.5rem; border: 2px solid; }
 .comparison-bad { border-color: var(--color-stone-200); background: #fafaf9; }
-.comparison-good { border-color: #bfdbfe; background: #eff6ff; }
+.comparison-good { border-color: #F4D21F; background: #fffbea; }
 .comparison-label { font-family: var(--font-display); font-weight: 700; font-size: 1.125rem; color: var(--color-navy); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
 .comparison-points { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
 .comparison-points li { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9375rem; color: var(--color-navy); }
 .dot { width: 6px; height: 6px; border-radius: 9999px; flex-shrink: 0; }
 .dot-bad { background: #94a3b8; }
-.dot-good { background: var(--color-primary); }
+.dot-good { background: var(--color-primary-text); }
 
 /* Services grid */
 .services-grid-home { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
@@ -751,7 +751,7 @@ document.addEventListener('DOMContentLoaded', () => {
   text-decoration: none;
   transition: border-color 0.15s, color 0.15s;
 }
-.area-chip:hover { border-color: var(--color-primary); color: var(--color-primary); }
+.area-chip:hover { border-color: var(--color-primary-text); color: var(--color-primary-text); }
 </style>
 
 </body>

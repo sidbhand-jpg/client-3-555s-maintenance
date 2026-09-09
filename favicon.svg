@@ -2,8 +2,8 @@
   <!-- Matches the header logo mark in components.js (logoHTML) —
        same glyph, same primary color, so the favicon stays in sync
        with the on-site brand mark. -->
-  <rect width="32" height="32" rx="6" fill="#2563EB"/>
-  <rect x="5" y="8"  width="22" height="4" rx="1.5" fill="#ffffff" opacity="0.5"/>
-  <rect x="5" y="14" width="22" height="4" rx="1.5" fill="#ffffff" opacity="0.75"/>
-  <rect x="5" y="20" width="22" height="4" rx="1.5" fill="#ffffff"/>
+  <rect width="32" height="32" rx="6" fill="#090909"/>
+  <rect x="5" y="8"  width="22" height="4" rx="1.5" fill="#F4D21F" opacity="0.6"/>
+  <rect x="5" y="14" width="22" height="4" rx="1.5" fill="#F4D21F" opacity="0.8"/>
+  <rect x="5" y="20" width="22" height="4" rx="1.5" fill="#F4D21F"/>
 </svg>
